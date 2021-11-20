@@ -1,13 +1,25 @@
 from itertools import permutations
 from english_words import english_words_lower_set
-
-text = "luogntt"
-print("input: " + text)
+from argparse import ArgumentParser
 
 
-perms = [''.join(p) for p in permutations(text)]
-perms_set = set(perms)
+def main(args):
+    scrambled_word = args.word
 
-for perm in perms_set:
-    if perm.lower() in english_words_lower_set:
-        print(perm)
+    perms = [''.join(p) for p in permutations(scrambled_word)]
+    perms_set = set(perms)
+
+    print("Found words:")
+    for perm in perms_set:
+        if perm.lower() in english_words_lower_set:
+            print(perm)
+
+    print("\nFinished")
+
+
+if __name__ == '__main__':
+    parser = ArgumentParser()
+    parser.add_argument('-w', '--word', help='the word to descramble', type=str, required=True)
+    args = parser.parse_args()
+    main(args)
+
