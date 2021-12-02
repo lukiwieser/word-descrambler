@@ -22,6 +22,6 @@ python main.py -w bsmlecra
 
 ## Further Information
 
-Currently only one input word is supported, so it is not possible to descramble whole sentences.
+Currently only one input word is supported, so it is not possible to descramble whole sentences. There currently is also only support for the english language.
 
 If you need more complex deciphers check out [Ciphey](https://github.com/Ciphey/Ciphey), their tool is really powerful.
