@@ -1,10 +1,10 @@
 ﻿# Word Descrambler
 
-A small script to descramble a word whos letters were reordered randomly.
+A small script to descramble a word whose letters were reordered randomly.
 
 Example: **bsmlecra** => **scramble**
 
-## Get started
+## Get Started
 
 This project requires [Python 3](https://www.python.org/downloads/) to be installed on your machine.
 
@@ -22,6 +22,10 @@ python main.py -w bsmlecra
 
 ## Further Information
 
-Currently only one input word is supported, so it is not possible to descramble whole sentences. There currently is also only support for the english language.
+Currently only one input word is supported, so it is not possible to descramble whole sentences. There currently is also only support for the English language.
 
-If you need more complex deciphers check out [Ciphey](https://github.com/Ciphey/Ciphey), their tool is really powerful.
+If you need more complex deciphers, check out [Ciphey](https://github.com/Ciphey/Ciphey). Their tool is really powerful.
+
+## Inspiration
+
+The creation of this script was inspired by a [riddle](https://twitter.com/TFT/status/1448680016045346821) that *Teamfight Tactics* posted on Twitter.
