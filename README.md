@@ -10,13 +10,13 @@ This project requires [Python 3](https://www.python.org/downloads/) to be instal
 
 First the project has to be downloaded. Then the required libraries can be installed by executing the following command in the project folder:
 
-```
+```shell
 pip install -r requirements.txt
 ```
 
 Then the script can be executed with the following command:
 
-```
+```shell
 python main.py -w bsmlecra
 ```
 
