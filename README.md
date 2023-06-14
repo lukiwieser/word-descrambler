@@ -28,4 +28,5 @@ If you need more complex deciphers, check out [Ciphey](https://github.com/Ciphey
 
 ## Inspiration
 
-The creation of this script was inspired by a [riddle](https://twitter.com/TFT/status/1448680016045346821) that *Teamfight Tactics* posted on Twitter.
+The creation of this script was inspired by a [riddle](https://twitter.com/TFT/status/1448680016045346821) that *Teamfight Tactics* posted on Twitter:
+![tft-twitter-post](docs/tft-twitter-post.png)
