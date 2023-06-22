@@ -10,9 +10,9 @@ def main(args):
     perms_set = set(perms)
 
     print("Found words:")
-    for perm in perms_set:
-        if perm.lower() in english_words_lower_set:
-            print(perm)
+    found_words = perms_set.intersection(english_words_lower_set)
+    for word in found_words: 
+        print(word)
 
     print("\nFinished")
 
